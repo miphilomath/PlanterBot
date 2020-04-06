@@ -1,0 +1,46 @@
+This is yet another incomplete project which I plan to complete this month.
+
+
+
+### Program Structure
+* input.csv:	contains the input configuration table for the seedlings for the script to run and overlay images accordingly.
+* main.py:		Main program calling modules
+* Wheels.py:	Module for controlling GPIO and motors to move forward, backward, rotate etc.
+* Track.py:		Module to recognise, the track, terrains and turns.
+* planter.py:	Module to recognise the color markers at planter zone.
+* LED.py:			Module to handle LED blinking at various stages in the competition.
+* shapes.py:	Module containing necessary functions to detect contour, color, shapes and moment.
+
+#### Structure as tree
+main.py
+ |
+ |
+ |
+(so on... To be updated)
+
+#### Algorithm
+The algorithm can be found on the task 3 submission folder.
+
+#### Libraries/Softwares used
+All the softwares and libraries that are used in this project are opensource softwares.
+The python libraries used other than opencv 3.11 are documented in requirements.txt. To install all those python dependencies/libraries, type `pip install -r requirements.txt`.
+
+#### Libraries Used are:
+1. numpy to perform opencv and other array operations.
+2. pandas to handle csv file
+3. Opencv: An open source image processing library.
+
+#### Software/Tools Used:
+1. VNC viewer to run graphical window on host using ssh protocol.
+2. Git: A Distributed version control system for development purpose.
+3. Python: Primary Programming language used for the task.
+4. ssh: To remotely control and execute python scripts on Raspberry pi 3 and picam.
+
+#### Platform Used:
+* Testing Platform: Rasbian Stretch on raspberry pi 3 Model B.
+* Development Platform: Fedora 28
+
+#### License
+I don't care what you did with the code as long as you hold the responsibility of your action and don't held me responsible for any actions.
+
+[IDGAF v1.0](https://tldrlegal.com/license/idgaf-v1.0)
